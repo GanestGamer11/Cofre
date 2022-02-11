@@ -1,0 +1,27 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+div{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+
+	width: 500px;
+	height: 400px;
+}
+div img{
+	width: 70%;
+	display: block;
+}
+div input{
+	width: 70%;
+	height: 20px;
+	display: block;
+	margin: 20px 0 20px 0;
+	outline: none;
+}
+div button{
+	width: 100px;
+}
